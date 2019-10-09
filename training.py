@@ -3,6 +3,7 @@ from ase.visualize import view
 import ase.dft.kpoints
 from ase.calculators.emt import EMT
 from ase.optimize import QuasiNewton
+from ase.constraints import FixAtoms
 
 # kpts = ase.dft.kpoints.monkhorst_pack([4, 4, 1]) + [0.2, 0.15, 0.12]
 
